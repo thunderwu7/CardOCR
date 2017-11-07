@@ -14,5 +14,6 @@ public:
 
 	void CharSegmentation(Mat &inimg, Mat &outimg);
 	void GetRegion(Mat &inimg, Mat &outimg);
+	int imageAdjust(Mat &src, Mat &dst);
 };
 
